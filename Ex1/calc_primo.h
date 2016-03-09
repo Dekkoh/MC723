@@ -1,3 +1,0 @@
-
-
-int primo(int n);
