@@ -1,3 +1,2 @@
 
-
 int primo(int n);

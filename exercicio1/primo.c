@@ -28,10 +28,10 @@ main(int argc, char *argv[ ]){
 
   printf("%d\n", nPrimos);
 
-  // int n = 104395301;
+  /*int n = 104395301;
 
-  // if (primo(n))
-  //   printf("%d é primo.\n", n);
-  // else
-  //   printf("%d não é primo.\n", n);
+  if (primo(n))
+    printf("%d é primo.\n", n);
+  else
+    printf("%d não é primo.\n", n);*/
 }	
