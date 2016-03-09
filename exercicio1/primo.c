@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <omp.h>
 
 int primo(int n)
 {
@@ -22,14 +23,26 @@ main(int argc, char *argv[ ]){
 	printf("0");
 	return 0;
   }
+  
+#pragma omp parallel for      \
+  default(shared) private(i)  \
+  schedule(static,10)     	 \
+  reduction(+:nPrimos) 
+	for (i = 3; i < n; i = i + 2) {
 
-  for (i = 3; i < n; i = i + 2) {
+		if (primo (i)) {
+			nPrimos++;
+		}
+
+	  }
+
+  /*for (i = 3; i < n; i = i + 2) {
 
     if (primo (i)) {
       nPrimos++;
     }
 
-  }
+  }*/
 
   printf("%d\n", nPrimos);
 
