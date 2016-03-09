@@ -7,9 +7,14 @@ main(int argc, char *argv[ ])
 
   int n = atoi (argv[1]);
   int i;
-  int nPrimos = 0;
+  int nPrimos = 1;
+  
+  if (n == 2) {
+	printf("0");
+	return 0;
+  }
 
-  for (i = 2; i < n; i++) {
+  for (i = 3; i < n; i = i + 2) {
 
     if (primo (i)) {
       nPrimos++;
