@@ -33,7 +33,7 @@
 ----------
 &nbsp;&nbsp;&nbsp;&nbsp;A opção -mtune diz ao compilador qual o tipo do processador que o usuário quer que ele se sintonize, criando assim um código mais otimizado para tal tipo de processador. Existem vaŕios parâmetros para esta opção, podendo ser generic, que sintoniza aos processadores mais comuns exitentes, ou native, que sintoniza ao processador nativo da máquina atual, ou escolher especificamente um processador em particular.
 
-&nbsp;&nbsp;&nbsp;&nbsp;No caso utilizei a -mtune=native, o tempo de compilação foi 0.077s e de execução foi 0.400s.
+>No caso utilizei a -mtune=native, o tempo de compilação foi 0.077s e de execução foi 0.400s.
 
 
 ###**Passo 2: Makefile**
