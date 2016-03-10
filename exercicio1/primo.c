@@ -34,7 +34,7 @@ main(int argc, char *argv[ ]){
 			nPrimos++;
 		}
 
-	  }
+	}
 
   /*for (i = 3; i < n; i = i + 2) {
 
