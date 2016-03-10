@@ -61,4 +61,8 @@ executavel: arquivo1.c arquivo2.c
 ----------
 ###**Passo 5: GPROF**
 
+&nbsp;&nbsp;&nbsp;&nbsp;Utilizando a ferramenta gprof, é possível obter diversas informações sobre a execução do programa. Tais informações são úteis para a otimização do código. As principais informações fornecidas pela ferramenta são os tempos que cada uma das funções gastam e a suas porcentagem no tempo total do programa. No exercício dado, tanto no caso de um arquivo fonte, quanto no caso de dois arquivos fonte, a função que gastou mais tempo foi “primo”, pois ela é a única função além da “main”.
+
+###**Passo 6: Paralelização**
+
 &nbsp;&nbsp;&nbsp;&nbsp;O trecho do código que eu paralelizaria seria o for da busca se o número é primo ou não. O tempo de compilação com a paralelização foi de **0.088s** e de execução foi de **0.594s**. Podemos observar que o tempo de execução com a paralelização é bem menor do que sem ela, mas o tempo de compilação é um pouco maior, e isso está dentro do esperado.
