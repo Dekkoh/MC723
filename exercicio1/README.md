@@ -62,3 +62,4 @@ executavel: arquivo1.c arquivo2.c
 ###**Passo 5: GPROF**
 
 &nbsp;&nbsp;&nbsp;&nbsp;O trecho do código que eu paralelizaria seria o for da busca se o número é primo ou não. O tempo de compilação com a paralelização foi de **0.088s** e de execução foi de **0.594s**. Podemos observar que o tempo de execução com a paralelização é bem menor do que sem ela, mas o tempo de compilação é um pouco maior, e isso está dentro do esperado.
+----------
