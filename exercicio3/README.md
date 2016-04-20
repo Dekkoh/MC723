@@ -22,19 +22,28 @@ Os resultados para cada programa foram:
 
 ----------
 ####JPEG CODER SMALL
+
 Total de instruções: 29857500
+
 Total de ciclos: 125750804
+
 CPI médio: 4.212
 
 ----------
 ####ADPCM ENCODER SMALL
+
 Total de instruções: 35758516
+
 Total de ciclos: 75621190
+
 CPI médio: 2.115
 
 
 ----------
 ####ADPCM ENCONDER LARGE
+
 Total de intruções: 35739019
+
 Total de ciclos: 75603202
+
 CPI médio: 2.115
