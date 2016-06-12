@@ -1,6 +1,6 @@
 #**MC723 - Exercício 4**
 
-####Nome: André Tsuyohi Sakiyama
+####Nome: Andre Tsuyohi Sakiyama
 ####RA: 150547
 
   Após a configuração da plataforma multicore, a aplicação que foi criada para fazer uso dos dois cores existentes foi um programa que calcula a soma dos elementos de um vetor de inteiros, o vetor é inicializado com tamanho de 500000, com valores de 1 a 500000.
