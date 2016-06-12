@@ -9,4 +9,4 @@
 
   Em seguida foi feita algumas modificações no programa para que este rodasse apenas com um core. Os resultados dos testes foram: 455122 instruções geradas, e portanto o tempo total da aplicação foi de  0.13386 segundos.
 
-  Podemos observar que houve um ganho muito grande ao usar apenas um core a mais. Isso se deve ao fato de que a aplicação em questão possui uma grande parte de seu código que é paralelizável, cerca de 32.95%, portanto ao dividir os cálculos em dois cores, o tempo da parte paralelizável cai pela metade.
+  Podemos observar que houve um ganho muito grande ao usar apenas um core a mais. Isso se deve ao fato de que a aplicação em questão possui uma grande parte de seu código que é paralelizável, cerca de 65.90%, portanto ao dividir os cálculos em dois cores, o tempo da parte paralelizável cai pela metade.
